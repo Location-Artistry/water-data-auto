@@ -3,3 +3,4 @@ node_modules/
 tokenEK.json
 credentials.json
 indexAuth.js
+token.json

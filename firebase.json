@@ -5,6 +5,27 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/googleAPIS/**",
+        "function": "api"
+      }, {
+        "source": "/googleAPIS/update-samp-design/**",
+        "function": "api"
+      }, {
+        "source": "/googleAPIS/update-samp-sheet/**",
+        "function": "api"
+      }, {
+        "source": "/googleAPIS/getAuth/**",
+        "function": "api"
+      }, {
+        "source": "/googleAPIS/getTest/**",
+        "function": "api"
+      }, {
+        "source": "/formatWaterDoc/**", 
+        "function": "api"
+      }
     ]
   }
 }

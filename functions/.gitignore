@@ -1,3 +1,5 @@
 node_modules/
 .env
 tokenEK.json
+credentials.json
+indexAuth.js

@@ -1,6 +1,6 @@
 node_modules/
 .env
-tokenEK.json
+ektoken.json
 credentials.json
 indexAuth.js
 token.json
